@@ -4,16 +4,16 @@ using namespace std;
   #include <c.math>;
   int main()
   {
-  int a,fax;
+  int a,answer;
   int fac = 1;
   cout << "Welcome to the factorial program, please enter in the number you wish to factorize!" \n;
   cin >> a;
   while (fac<a)
                 {
-               fax = fac;
+               answer = fac;
                 fac += 1;
-                fax = fac * fax;
+                answer = fac * answer;
                 }
   cout << fax << " is your answer";
-  return (               
+  return(0);               
   }
